@@ -18,6 +18,7 @@ Stampare la collezione aggiornata */
 
         System.out.println("The list of fruits is: " + fruits);
 
+        //aggiungo un elemento al primo e uno all'ultimo posto della lista
         fruits.addFirst(new Fruit("Orange"));
         fruits.addLast(new Fruit("Grapes"));
 
